@@ -1,0 +1,96 @@
+# Default application configuration that all configurations inherit from.
+linters:
+  BorderZero:
+    enabled: false
+
+  CapitalizationInSelector:
+    enabled: true
+
+  ColorKeyword:
+    enabled: true
+
+  Comment:
+    enabled: false
+
+  DebugStatement:
+    enabled: true
+
+  DeclarationOrder:
+    enabled: false
+
+  DuplicateProperty:
+    enabled: true
+
+  EmptyLineBetweenBlocks:
+    enabled: true
+
+  EmptyRule:
+    enabled: true
+
+  HexFormat:
+    enabled: true
+
+  IdWithExtraneousSelector:
+    enabled: true
+
+  Indentation:
+    enabled: false
+    width: 2
+
+  LeadingZero:
+    enabled: false
+
+  NameFormat:
+    enabled: false
+
+  PlaceholderInExtend:
+    enabled: false
+
+  PropertySortOrder:
+    enabled: false
+
+  PropertySpelling:
+    enabled: true
+    extra_properties: []
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 7
+
+  Shorthand:
+    enabled: true
+
+  SingleLinePerSelector:
+    enabled: true
+
+  SpaceAfterComma:
+    enabled: true
+
+  SpaceAfterPropertyColon:
+    enabled: true
+
+  SpaceAfterPropertyName:
+    enabled: true
+
+  SpaceBeforeBrace:
+    enabled: true
+
+  SpaceBetweenParens:
+    enabled: true
+    spaces: 0
+
+  StringQuotes:
+    enabled: false
+    style: single_quotes # or double_quotes
+
+  TrailingSemicolonAfterPropertyValue:
+    enabled: true
+
+  UrlQuotes:
+    enabled: true
+
+  ZeroUnit:
+    enabled: true
+
+  Compass::*:
+    enabled: false
